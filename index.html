@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Conversor</title>
+</head>
+<body>
+    
+    <main class="conv-area" >
+        <div class="conv" >
+            <h1>
+                Conversor USD > BRL
+            </h1>
+
+            <form method="post" action="">
+                <input id="USD" type="text" name="USD" placeholder="Dolares" autofocus autocomplete="off" >
+                <input id="BRL" type="text" name="BRL" placeholder="Reais" value="" disabled >
+                <input onclick="converter()" type="button" value="converter" >
+            </form>
+            <p>Feito por: <a href="https://github.com/janpeto">jan Peto</a></p>
+        </div>
+    </main>
+
+    <script src="js/calc.js"></script>
+</body>
+</html>
