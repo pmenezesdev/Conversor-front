@@ -1,3 +1,4 @@
+//conversão
 function converter() {
 
     let dol = document.getElementById("USD").value;
@@ -15,15 +16,7 @@ function converter() {
 }
 
 
-
-
-
-
-
-
-
-
-
+//animação
 anime({
     targets: '.conv-area',
     opacity: [0, 1],
