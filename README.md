@@ -3,5 +3,8 @@
 ## Live at https://janpeto.github.io/Conversor-front/
 
 ### TO-DO
-* Utilização de API de câmbio para que o valor da moeda esteja sempre atualizado
+* <s>Utilização de API de câmbio para que o valor da moeda esteja sempre atualizado</s>
 * Opção de selecionar a moeda que deseja utilizar para conversão
+
+# API utilizada
+* https://docs.awesomeapi.com.br/api-de-moedas
